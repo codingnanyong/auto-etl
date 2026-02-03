@@ -1,0 +1,46 @@
+# .NET / C#
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+
+# IDE / Editor
+.vs/
+.vscode/
+.idea/
+*.iml
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+
+# ETL generated data
+extract/_csv/
+extract/_zip/
+load/_csv/
+load/_zip/
+backup/
+history.xml
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
